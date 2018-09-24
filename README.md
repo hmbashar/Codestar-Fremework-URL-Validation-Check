@@ -1,6 +1,7 @@
 # Codestar Fremework URL Validation Check
 Add validate from themename/cs-framework/functions/validate.php
-```/**
+```
+/**
  *
  * URL validate
  *
@@ -17,5 +18,6 @@ if( ! function_exists( 'cs_validate_url' ) ) {
 
   }
   add_filter( 'cs_validate_url', 'cs_validate_url', 10, 2 );
-}```
+}
+```
 Have a nich coding
